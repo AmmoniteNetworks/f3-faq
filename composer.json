@@ -1,0 +1,27 @@
+{
+    "name": "ammonitenetworks/f3-faq",
+    "type": "component",
+    "description": "FAQ component for the F3-framework",
+    "keywords": ["F3","RAD", "Finances"],
+    "homepage": "https://github.com/ammonitenetworks/f3-faq",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Chris French",
+            "email": "chris@ammonitenetworks.com",
+            "homepage": "http://ammonitenetworks.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "dioscouri/f3-lib": "dev-master",
+        "dioscouri/f3-admin": "dev-master",
+        "dioscouri/f3-search": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Faq": "src/"
+        }
+    }    
+}
